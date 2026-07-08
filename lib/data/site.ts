@@ -38,8 +38,8 @@ export const site = {
   whatsapp: "+251961612461",
   address: "Piassa Area, Gondar, Ethiopia (exact address to be confirmed)",
   mapsQuery: "Nu Restaurant Gondar",
-  instagram: "https://instagram.com/nurestaurant",
-  tiktok: "https://tiktok.com/@nurestaurant",
+  instagram: "https://www.instagram.com/nu_migib_bet?igsh=MW4wMWY2OXZ5dnZ6Zw==",
+  tiktok: "https://tiktok.com/@numigbet",
   facebook: "https://facebook.com/nurestaurant",
 } as const;
 
