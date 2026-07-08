@@ -100,7 +100,7 @@ export function Reservation() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-5 text-white/60 text-lg max-w-md mx-auto leading-relaxed"
           >
-            Tell us when you'd like to visit, and we'll take care of the rest.
+            {"Tell us when you'd like to visit, and we'll take care of the rest."}
           </motion.p>
         </div>
 
