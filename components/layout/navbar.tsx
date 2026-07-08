@@ -89,8 +89,11 @@ export function Navbar() {
                   href={link.href}
                   onClick={(e) => {
                     e.preventDefault();
+                    const target = document.querySelector(link.href);
                     setOpen(false);
-                    document.querySelector(link.href)?.scrollIntoView({ behavior: "smooth" });
+                    setTimeout(() => {
+                      target?.scrollIntoView({ behavior: "smooth" });
+                    }, 350);
                   }}
                   className="text-lg text-white/80 hover:text-gold transition-colors"
                 >
